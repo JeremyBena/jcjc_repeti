@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Page d’accueil : informations générales",
+    "section": "",
+    "text": "[Pages en développement]\nCoordinateur du projet : Jérémy Béna, Maître de conférences en psychologie, Aix-Marseille Université, Centre de Recherche en Psychologie et Neurosciences (CRPN, UMR 7077).\n@ : jeremy.bena@univ-amu.fr"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Ce site vise à présenter le projet Jeunes Checheuses et Jeunes Chercheurs (JCJC) “REPETI” financé par l’ANR (2026-2030).\nPour toute demande concernant le projet, n’hésitez pas à me contacter.\nSite hébergé sur GitHub et créé avec RStudio et Quarto."
+  }
+]
