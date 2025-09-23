@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "participer.html",
+    "href": "participer.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Ce site vise à présenter le projet Jeunes Checheuses et Jeunes Chercheurs (JCJC) “REPETI” financé par l’ANR (2026-2030). D’autres informations sont disponibles sur la page ANR du projet : https://anr.fr/Projet-ANR-25-CE28-0842.\nPour toute demande concernant le projet, n’hésitez pas à en contacter le coordinateur, Jérémy Béna : contacter.\nSite hébergé sur GitHub et créé avec RStudio et Quarto."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Page d’accueil : informations générales",
@@ -7,10 +14,38 @@
     "text": "[Pages en développement]\nCoordinateur du projet : Jérémy Béna, Maître de conférences en psychologie, Aix-Marseille Université, Centre de Recherche en Psychologie et Neurosciences (CRPN, UMR 7077).\n@ : jeremy.bena@univ-amu.fr"
   },
   {
+    "objectID": "axe2.html",
+    "href": "axe2.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Ce site vise à présenter le projet Jeunes Checheuses et Jeunes Chercheurs (JCJC) “REPETI” financé par l’ANR (2026-2030). D’autres informations sont disponibles sur la page ANR du projet : https://anr.fr/Projet-ANR-25-CE28-0842.\nPour toute demande concernant le projet, n’hésitez pas à en contacter le coordinateur, Jérémy Béna : contacter.\nSite hébergé sur GitHub et créé avec RStudio et Quarto."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "À propos",
     "section": "",
-    "text": "Ce site vise à présenter le projet Jeunes Checheuses et Jeunes Chercheurs (JCJC) “REPETI” financé par l’ANR (2026-2030).\nPour toute demande concernant le projet, n’hésitez pas à me contacter.\nSite hébergé sur GitHub et créé avec RStudio et Quarto."
+    "text": "Ce site vise à présenter le projet Jeunes Checheuses et Jeunes Chercheurs (JCJC) “REPETI” financé par l’ANR (2026-2030). D’autres informations sont disponibles sur la page ANR du projet : https://anr.fr/Projet-ANR-25-CE28-0842.\nPour toute demande concernant le projet, n’hésitez pas à en contacter le coordinateur, Jérémy Béna : contacter.\nSite hébergé sur GitHub et créé avec RStudio et Quarto."
+  },
+  {
+    "objectID": "axe1.html",
+    "href": "axe1.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Ce site vise à présenter le projet Jeunes Checheuses et Jeunes Chercheurs (JCJC) “REPETI” financé par l’ANR (2026-2030). D’autres informations sont disponibles sur la page ANR du projet : https://anr.fr/Projet-ANR-25-CE28-0842.\nPour toute demande concernant le projet, n’hésitez pas à en contacter le coordinateur, Jérémy Béna : contacter.\nSite hébergé sur GitHub et créé avec RStudio et Quarto."
+  },
+  {
+    "objectID": "axe3.html",
+    "href": "axe3.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Ce site vise à présenter le projet Jeunes Checheuses et Jeunes Chercheurs (JCJC) “REPETI” financé par l’ANR (2026-2030). D’autres informations sont disponibles sur la page ANR du projet : https://anr.fr/Projet-ANR-25-CE28-0842.\nPour toute demande concernant le projet, n’hésitez pas à en contacter le coordinateur, Jérémy Béna : contacter.\nSite hébergé sur GitHub et créé avec RStudio et Quarto."
+  },
+  {
+    "objectID": "partenaires.html",
+    "href": "partenaires.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Ce site vise à présenter le projet Jeunes Checheuses et Jeunes Chercheurs (JCJC) “REPETI” financé par l’ANR (2026-2030). D’autres informations sont disponibles sur la page ANR du projet : https://anr.fr/Projet-ANR-25-CE28-0842.\nPour toute demande concernant le projet, n’hésitez pas à en contacter le coordinateur, Jérémy Béna : contacter.\nSite hébergé sur GitHub et créé avec RStudio et Quarto."
   }
 ]
