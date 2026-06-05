@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -144,8 +164,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -169,9 +195,49 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>En construction.</p>
+<p>We will test the effect of repetition (word-for-word repetition vs.&nbsp;thematic repetition vs.&nbsp;new statements) on truth judgments (assessed in a binary “true”/“false” truth judgment task) of adult participants on trivia and conspiracy statements. The basic procedure is an extension of the typical truth effect procedure <span class="citation" data-cites="unkelbach_truth_2019 henderson_reproducible_2022">(<a href="#ref-henderson_reproducible_2022" role="doc-biblioref">Henderson et al., 2022</a>; <a href="#ref-unkelbach_truth_2019" role="doc-biblioref">Unkelbach et al., 2019</a>)</span>. Experiment 1 will use trivia statements, and Experiment 2 will use conspiracy statements. These experiments are replications and extensions of prior research we conducted on the effect of word-for-word repetition on trivia and conspiracy statements <span class="citation" data-cites="bena_repetition_2023">(<a href="#ref-bena_repetition_2023" role="doc-biblioref">Béna et al., 2023</a>)</span>.</p>
+<p>Based on conceptual fluency <span class="citation" data-cites="vogel_truth_2020">(<a href="#ref-vogel_truth_2020" role="doc-biblioref">Vogel et al., 2020</a>)</span> and fuzzy-trace theory accounts of the truth effect <span class="citation" data-cites="bena_leffet_2019 edelson_psychology_2024">(<a href="#ref-bena_leffet_2019" role="doc-biblioref">Béna et al., 2019</a>; <a href="#ref-edelson_psychology_2024" role="doc-biblioref">Edelson et al., 2024</a>)</span>, thematic repetition is enough to obtain a truth effect similar in size to the truth effect with word-for-word repetition. From this perspective, retrieving the gist of a statement, not verbatim representations, is key to the truth effect. However, past research does not allow clear conclusions regarding the effect of repetition’s format on the size of the truth effect because (1) they were not sufficiently powered to detect such differences and (2) contradictory results were obtained <span class="citation" data-cites="begg_repetition_1991 gratton_false_2024 pillai_repeated_2025 silva_informative_2017">(<a href="#ref-begg_repetition_1991" role="doc-biblioref">Begg &amp; Armour, 1991</a>; <a href="#ref-gratton_false_2024" role="doc-biblioref">Gratton et al., 2024</a>; <a href="#ref-pillai_repeated_2025" role="doc-biblioref">Pillai &amp; Fazio, 2025</a>; <a href="#ref-silva_informative_2017" role="doc-biblioref">Silva et al., 2017</a>)</span>. In addition, no such test was conducted with conspiracy statements.</p>
+<p>If retrieving the gist of statements contributes to the truth effect regardless of the retrieval of verbatim representations, we predict that the truth effect should be similar in magnitude for word-for-word and thematic repetition. However, if retrieving verbatim representations also contributes to the truth effect, the truth effect should be larger for word-for-word than thematic repetition <span class="citation" data-cites="stahl_simplified_2008">(because items repeated identically are better cues to verbatim representations than items repeated thematically, <a href="#ref-stahl_simplified_2008" role="doc-biblioref">Stahl &amp; Klauer, 2008</a>)</span>. We will conduct experiments securing enough statistical power to detect a small effect of repetition’s format on the truth effect. In addition to frequentist analyses, we will use Bayesian analyses to quantify the support for the hypothesis of no effect against the hypothesis of a larger truth effect for word-for-word vs.&nbsp;thematic repetition.</p>
+<section id="references" class="level1">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-begg_repetition_1991" class="csl-entry" role="listitem">
+Begg, I., &amp; Armour, V. (1991). Repetition and the ring of truth: <span>Biasing</span> comments. <em>Canadian Journal of Behavioural Science / Revue Canadienne Des Sciences Du Comportement</em>, <em>23</em>(2), 195–213. <a href="https://doi.org/10.1037/h0079004">https://doi.org/10.1037/h0079004</a>
+</div>
+<div id="ref-bena_leffet_2019" class="csl-entry" role="listitem">
+Béna, J., Carreras, O., &amp; Terrier, P. (2019). L’effet de vérité induit par la répétition : Revue critique de l’hypothèse de familiarité: <em>L’Année Psychologique</em>, <em>Vol. 119</em>(3), 397–425. <a href="https://doi.org/10.3917/anpsy1.193.0397">https://doi.org/10.3917/anpsy1.193.0397</a>
+</div>
+<div id="ref-bena_repetition_2023" class="csl-entry" role="listitem">
+Béna, J., Rihet, M., Carreras, O., &amp; Terrier, P. (2023). Repetition could increase the perceived truth of conspiracy theories. <em>Psychonomic Bulletin &amp; Review</em>, <em>30</em>(6), 2397–2406. <a href="https://doi.org/10.3758/s13423-023-02276-4">https://doi.org/10.3758/s13423-023-02276-4</a>
+</div>
+<div id="ref-edelson_psychology_2024" class="csl-entry" role="listitem">
+Edelson, S. M., Reyna, V. F., Singh, A., &amp; Roue, J. E. (2024). The <span>Psychology</span> of <span>Misinformation</span> <span>Across</span> the <span>Lifespan</span>. <em>Annual Review of Developmental Psychology</em>. https://doi.org/<a href="https://doi.org/10.1146/annurev-devpsych-010923-093547">https://doi.org/10.1146/annurev-devpsych-010923-093547</a>
+</div>
+<div id="ref-gratton_false_2024" class="csl-entry" role="listitem">
+Gratton, C., Béghin, G., Gagnon-St-Pierre, É., &amp; Markovits, H. (2024). False information is harder to debunk after gist repetitions than verbatim repetitions. <em>Journal of Cognitive Psychology</em>, <em>36</em>(3), 309–321. <a href="https://doi.org/10.1080/20445911.2024.2314975">https://doi.org/10.1080/20445911.2024.2314975</a>
+</div>
+<div id="ref-henderson_reproducible_2022" class="csl-entry" role="listitem">
+Henderson, E. L., Westwood, S. J., &amp; Simons, D. J. (2022). A reproducible systematic map of research on the illusory truth effect. <em>Psychonomic Bulletin &amp; Review</em>, <em>29</em>(3), 1065–1088. <a href="https://doi.org/10.3758/s13423-021-01995-w">https://doi.org/10.3758/s13423-021-01995-w</a>
+</div>
+<div id="ref-pillai_repeated_2025" class="csl-entry" role="listitem">
+Pillai, R. M., &amp; Fazio, L. K. (2025). Repeated by many versus repeated by one: <span>Examining</span> the role of social consensus in the relationship between repetition and belief. <em>Journal of Applied Research in Memory and Cognition</em>, <em>14</em>(2), 154–166. <a href="https://doi.org/10.1037/mac0000166">https://doi.org/10.1037/mac0000166</a>
+</div>
+<div id="ref-silva_informative_2017" class="csl-entry" role="listitem">
+Silva, R. R., Garcia-Marques, T., &amp; Reber, R. (2017). The informative value of type of repetition: <span>Perceptual</span> and conceptual fluency influences on judgments of truth. <em>Consciousness and Cognition</em>, <em>51</em>, 53–67. <a href="https://doi.org/10.1016/j.concog.2017.02.016">https://doi.org/10.1016/j.concog.2017.02.016</a>
+</div>
+<div id="ref-stahl_simplified_2008" class="csl-entry" role="listitem">
+Stahl, C., &amp; Klauer, K. C. (2008). A simplified conjoint recognition paradigm for the measurement of gist and verbatim memory. <em>Journal of Experimental Psychology: Learning, Memory, and Cognition</em>, <em>34</em>(3), 570–586. <a href="https://doi.org/10.1037/0278-7393.34.3.570">https://doi.org/10.1037/0278-7393.34.3.570</a>
+</div>
+<div id="ref-unkelbach_truth_2019" class="csl-entry" role="listitem">
+Unkelbach, C., Koch, A., Silva, R. R., &amp; Garcia-Marques, T. (2019). Truth by <span>Repetition</span>: <span>Explanations</span> and <span>Implications</span>. <em>Current Directions in Psychological Science</em>, <em>28</em>(3), 247–253. <a href="https://doi.org/10.1177/0963721419827854">https://doi.org/10.1177/0963721419827854</a>
+</div>
+<div id="ref-vogel_truth_2020" class="csl-entry" role="listitem">
+Vogel, T., Silva, R. R., Thomas, A., &amp; Wänke, M. (2020). Truth is in the mind, but beauty is in the eye: <span>Fluency</span> effects are moderated by a match between fluency source and judgment dimension. <em>Journal of Experimental Psychology: General</em>, <em>149</em>(8), 1587–1596. <a href="https://doi.org/10.1037/xge0000731">https://doi.org/10.1037/xge0000731</a>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

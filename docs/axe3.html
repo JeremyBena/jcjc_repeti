@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -144,8 +164,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -169,9 +195,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>En construction.</p>
+<p>Several interventions have been shown to reduce the truth effect, including asking individuals to counteract the truth effect after being informed of its existence <span class="citation" data-cites="calio_how_2020-1 nadarevic_unveiling_2017">(warnings, <a href="#ref-calio_how_2020-1" role="doc-biblioref">Calio et al., 2020</a>; <a href="#ref-nadarevic_unveiling_2017" role="doc-biblioref">Nadarevic &amp; Aßfalg, 2017</a>)</span> and presenting accuracy prompts during the exposure phase <span class="citation" data-cites="brashier_initial_2020 calvillo_initial_2020 nadarevic_initial_2014 lin_thinking_2023">(<a href="#ref-brashier_initial_2020" role="doc-biblioref">Brashier et al., 2020</a>; <a href="#ref-calvillo_initial_2020" role="doc-biblioref">Calvillo &amp; Smelter, 2020</a>; <a href="#ref-lin_thinking_2023" role="doc-biblioref">Lin et al., 2023</a>; <a href="#ref-nadarevic_initial_2014" role="doc-biblioref">Nadarevic &amp; Erdfelder, 2014</a>)</span>. However, (1) these interventions were not tested in the context of conspiracy theories, (2) only word-for-word, not thematic, repeated exposure has been used, and (3) no insights into the underlying representations have been offered. As a result, the effectiveness of such interventions with problematic information (such as conspiracy statements) in realistic contexts (where repeated exposure can be thematic rather than word-for-word) and why they could be effective remains unknown.</p>
+<p>We plan to test the effectiveness of warnings (Experiment 11) and accuracy prompts (Experiment 12) in reducing the truth effect with conspiracy statements. We will manipulate features of the procedure (warnings in the test phase: instructions to prevent the truth effect or control; accuracy prompts: task to judge statements’ truth or interest in the exposure phase). Using the procedure we propose to introduce in Axis 2 will enable testing whether these interventions are effective, as they influence verbatim retrieval, gist retrieval, or guessing biases.</p>
+<section id="references" class="level1">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-brashier_initial_2020" class="csl-entry" role="listitem">
+Brashier, N. M., Eliseev, E. D., &amp; Marsh, E. J. (2020). An initial accuracy focus prevents illusory truth. <em>Cognition</em>, <em>194</em>, 104054. <a href="https://doi.org/10.1016/j.cognition.2019.104054">https://doi.org/10.1016/j.cognition.2019.104054</a>
+</div>
+<div id="ref-calio_how_2020-1" class="csl-entry" role="listitem">
+Calio, F., Nadarevic, L., &amp; Musch, J. (2020). How explicit warnings reduce the truth effect: <span>A</span> multinomial modeling approach. <em>Acta Psychologica</em>, <em>211</em>, 103185. <a href="https://doi.org/10.1016/j.actpsy.2020.103185">https://doi.org/10.1016/j.actpsy.2020.103185</a>
+</div>
+<div id="ref-calvillo_initial_2020" class="csl-entry" role="listitem">
+Calvillo, D. P., &amp; Smelter, T. J. (2020). An initial accuracy focus reduces the effect of prior exposure on perceived accuracy of news headlines. <em>Cognitive Research: Principles and Implications</em>, <em>5</em>(1), 55. <a href="https://doi.org/10.1186/s41235-020-00257-y">https://doi.org/10.1186/s41235-020-00257-y</a>
+</div>
+<div id="ref-lin_thinking_2023" class="csl-entry" role="listitem">
+Lin, H., Pennycook, G., &amp; Rand, D. G. (2023). Thinking more or thinking differently? <span>Using</span> drift-diffusion modeling to illuminate why accuracy prompts decrease misinformation sharing. <em>Cognition</em>, <em>230</em>, 105312. <a href="https://doi.org/10.1016/j.cognition.2022.105312">https://doi.org/10.1016/j.cognition.2022.105312</a>
+</div>
+<div id="ref-nadarevic_unveiling_2017" class="csl-entry" role="listitem">
+Nadarevic, L., &amp; Aßfalg, A. (2017). Unveiling the truth: Warnings reduce the repetition-based truth effect. <em>Psychological Research</em>, <em>81</em>(4), 814–826. <a href="https://doi.org/10.1007/s00426-016-0777-y">https://doi.org/10.1007/s00426-016-0777-y</a>
+</div>
+<div id="ref-nadarevic_initial_2014" class="csl-entry" role="listitem">
+Nadarevic, L., &amp; Erdfelder, E. (2014). Initial judgment task and delay of the final validity-rating task moderate the truth effect. <em>Consciousness and Cognition</em>, <em>23</em>, 74–84. <a href="https://doi.org/10.1016/j.concog.2013.12.002">https://doi.org/10.1016/j.concog.2013.12.002</a>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
