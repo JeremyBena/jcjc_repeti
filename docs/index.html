@@ -176,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Une <a href="./presentation.html">présentation générale du projet</a></li>
 <li>Lorsque le projet démarrera, une présentation des actions et études à mesure qu’elles sont réalisées sur chacun des trois axes du projet (<a href="./axe1.html">Axe 1</a> ; <a href="./axe2.html">Axe 2</a> ; <a href="./axe3.html">Axe 3</a>)</li>
-<li>Des <a href="./participer.html">annonces de recrutement</a> pour travailler sur le projet en tant que doctorant.e, ingénieur.e d’études, stagiaire…</li>
+<li>Des <a href="./participer.html">annonces de recrutement</a> pour travailler sur le projet en tant qu’ingénieur.e d’études, stagiaire…</li>
 <li>Une présentation des <a href="./partenaires.html">partenaires du projet</a></li>
 </ul>
 <p>Pour toute question sur le projet, n’hésitez pas à contacter le coordinateur du projet, Jérémy Béna, Maître de conférences en psychologie, Aix-Marseille Université, Centre de Recherche en Psychologie et Neurosciences (CRPN, UMR 7077) :</p>
@@ -295,6 +295,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
